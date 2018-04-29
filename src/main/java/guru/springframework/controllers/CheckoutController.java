@@ -30,7 +30,7 @@ public class CheckoutController {
         if (bindingResult.hasErrors()) {
             return "checkoutform";
         }
-
+system.out.println("Ananth here!!!!!!!!!!!");
         return "checkoutcomplete";
 
     }
